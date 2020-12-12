@@ -118,5 +118,5 @@ def solve(rule, limit):
     writeOutput(state)
     return numOccupied
 
-# print(solve(numAdjacentSeats, 4))
-print(solve(numAdjacentVisibleSeats, 5))
+print("Problem 1:", solve(numAdjacentSeats, 4))
+print("Problem 2:", solve(numAdjacentVisibleSeats, 5))
